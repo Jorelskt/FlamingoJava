@@ -1,0 +1,217 @@
+﻿1)
+package exercicios03;
+
+import java.util.Scanner;
+
+public class Exercicio01 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite sua idade: ");
+		int ano=sc.nextInt();
+		System.out.println("Digite a quantidade de meses desde seu ultimo aniversario: ");
+		int mes=sc.nextInt();
+		System.out.println("Digite a quantidade de dias desde de seu ultimos mesversario: ");
+		int dia=sc.nextInt();
+		int soma=(ano*365)+(mes*30)+dia;
+		System.out.println("Quantidade de dias vividos: "+soma);
+		
+	}
+	
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2)
+package exercicios03;
+
+import java.util.Scanner;
+
+public class Exercicio02 {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o numero total de Eleitores de um Múnicipio");
+		float totalEleitoresMunicipio = sc.nextFloat();
+		System.out.println("Digite o total de votos brancos de um Múnicipio");
+		float numeroVotosBrancos = sc.nextFloat();
+		System.out.println("Digite o total de votos nulos de um Múnicipio");
+		float numeroVotosNulos = sc.nextFloat();
+		System.out.println("Digite o total de votos válidos de um Múnicipio");
+		float numeroVotosValidos = sc.nextFloat();
+		float porcentagemVotosBrancos=numeroVotosBrancos/totalEleitoresMunicipio*100;
+		float porcentagemVotosValidos=numeroVotosValidos/totalEleitoresMunicipio*100;
+		float porcentagemVotosNulos=numeroVotosNulos/totalEleitoresMunicipio*100;
+		System.out.println("A porcentagem de votos brancos corresponde a: "+porcentagemVotosBrancos+"%");
+		System.out.println("A porcentagem de votos Validos corresponde a: "+porcentagemVotosValidos+"%");
+		System.out.println("A porcentagem de votos Nulos corresponde a: "+porcentagemVotosNulos+"%");
+		
+	sc.close();	
+	}
+
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3)
+package exercicios03;
+
+import java.util.Scanner;
+
+public class Exercicio03 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o valor do salario mensal do funcionario: ");
+		float valorSalarioMensal = sc.nextFloat();
+		System.out.println("Digite o percentual do reajuste: ");
+		float percentualReajuste = sc.nextFloat();
+		float novoSalario=valorSalarioMensal/100*percentualReajuste+valorSalarioMensal;
+		System.out.println("O valor do novo sálario é: "+novoSalario);
+		
+	sc.close();
+	}
+
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4)
+package exercicios03;
+
+import java.util.Scanner;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o valor de fabricação do carro: ");
+		float valorCarro = sc.nextFloat();
+		float valorTotalCarro=valorCarro*28/100+valorCarro*45/100+valorCarro;
+		System.out.println("O valor total do carro com imposto mais distribuidor é: "+valorTotalCarro);
+	
+	sc.close();
+	}
+
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5) 
+package exercicios03;
+
+import java.util.Scanner;
+
+public class Exercicio05 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite a temperatura em graus Celsius: ");
+		float grauCelsius = sc.nextFloat();
+		float calculo=(9*grauCelsius+160)/5;
+		System.out.println("A temperatura em Fahrenhit é: "+calculo);
+		
+	}
+
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6)
+package exercicios03;
+
+import java.util.Scanner;
+
+public class Exercicio06 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite a temperatura em Fahrenheit que deseja ver em Celsios");
+		double grauFahrenheit = sc.nextDouble();
+		
+		double grauCelsius=(grauFahrenheit-32)*5/9;
+		System.out.println("A temperatura em Celsius é: "+grauCelsius);
+	
+		sc.close();
+	}
+
+}
+-----------------------------------------------------------------------------------------------------------------------------------
+7) 
+package exercicios03;
+
+import java.util.Scanner;
+
+public class Exercicio07 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o raio da lata: ");
+		double raioLata=sc.nextDouble();
+		System.out.println("Digite a altura da lata: ");
+		double alturaLata=sc.nextDouble();
+		double volumeLata=Math.PI*raioLata*raioLata*alturaLata;
+		System.out.println("O valor do Volume da lata de óleo é: "+volumeLata);
+		
+		sc.close();
+		
+	}
+	
+}
+---------------------------------------------------------------------------------------------
+08)
+package exercicios03;
+
+import java.util.Scanner;
+
+public class Exercicio08 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe o tempo gasto até o destino: ");
+		double tempo = sc.nextDouble();
+		System.out.println("Informa a Velocidade média durante a viagem: ");
+		double velocidade = sc.nextDouble();
+		double distancia=tempo*velocidade;
+		double litrosUsados=distancia/12;
+		System.out.println("A velocidade Média é: "+velocidade+ "\n O tempo gasto na viagem é: "+tempo+ "\n A distancia percorrida é:"+distancia+ 
+				"\n A quantidade de litros gasto na viagem é: "+litrosUsados);
+		
+		sc.close();
+		
+	}
+
+}
+------------------------------------------------------------------------------------------------------------------------------------
+09)
+package exercicios03;
+
+import java.util.Scanner;
+
+public class Exercicio09 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+			
+			System.out.println("Digite o valor da prestação: ");
+			double valorPrestacao = sc.nextDouble();
+			System.out.println("Digite a porcentagem do juros: ");
+			double porcentagemJuros = sc.nextDouble();
+			System.out.println("Quantos meses estão atrasados: ");
+			double tempoAtraso = sc.nextDouble();
+			double prestacaoJuros=valorPrestacao+(valorPrestacao*porcentagemJuros/100)*tempoAtraso;
+			System.out.println("O valor da Prestação em atraso é: "+prestacaoJuros);
+	
+			sc.close();
+	}
+
+}
+---------------------------------------------------------------------------------------------------------------------------------------
+10)

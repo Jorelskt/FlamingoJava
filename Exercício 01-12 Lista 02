@@ -1,0 +1,583 @@
+1) 
+package exercicios;
+
+
+
+import java.util.Scanner;
+
+
+
+public class Exercicio01 {
+
+
+
+/*1) Solicite um valor do teclado e exiba o seu
+
+* sucessor.*/
+
+
+
+
+
+public static void main(String[] args) {
+
+
+
+Scanner sc = new Scanner(System.in);
+
+
+
+System.out.println("Digite um numero: ");
+
+int numero=sc.nextInt();
+
+int sucessor=numero+1;
+
+System.out.println("O sucessor do numero digitado é: "+sucessor);
+
+sc.close();
+
+
+
+}
+
+
+
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2) 
+package exercicios;
+
+
+
+import java.util.Scanner;
+
+
+
+public class Exercicio02 {
+
+
+
+/*1) Solicite um valor do teclado e exiba o seu
+
+* antecessor.*/
+
+
+
+
+
+public static void main(String[] args) {
+
+
+
+Scanner sc = new Scanner(System.in);
+
+
+
+System.out.println("Digite um numero: ");
+
+int numero=sc.nextInt();
+
+int antecessor=numero-1;
+
+System.out.println("O Antecessor do numero digitado é: "+antecessor);
+
+sc.close();
+
+
+
+}
+
+
+
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3) 
+package exercicios;
+
+
+
+import java.util.Scanner;
+
+
+
+public class Exercicios03 {
+
+
+
+/*1) Solicite dois valores no teclado e exiba a soma entre os
+
+* numeros*/
+
+
+
+
+
+public static void main(String[] args) {
+
+
+
+Scanner sc = new Scanner(System.in);
+
+
+
+System.out.println("Digite o primeiro numero: ");
+
+int numero=sc.nextInt();
+
+System.out.println("Digite o segundo numero: ");
+
+int numero1=sc.nextInt();
+
+int soma=numero+numero1;
+
+System.out.println("A soma dos numeros é: "+soma);
+
+}
+
+
+
+}
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4) 
+package exercicios;
+
+
+
+import java.util.Scanner;
+
+
+
+public class Exercicio04 {
+
+
+
+/*1) Solicite dois valores no teclado e exiba a subtração entre os
+
+* numeros*/
+
+
+
+
+
+public static void main(String[] args) {
+
+
+
+Scanner sc = new Scanner(System.in);
+
+
+
+System.out.println("Digite um numero: ");
+
+int numero=sc.nextInt();
+
+System.out.println("Digite outro numero: ");
+
+int numero1=sc.nextInt();
+
+int subtração=numero-numero1;
+
+System.out.println("A subtração dos numeros é: "+subtração);
+
+}
+
+
+
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5)
+package exercicios;
+
+
+
+import java.util.Scanner;
+
+
+
+public class Exercicio05 {
+
+
+
+/*1) Solicite dois valores no teclado e exiba a multiplicação entre os
+
+* numeros*/
+
+
+
+
+
+public static void main(String[] args) {
+
+
+
+Scanner sc = new Scanner(System.in);
+
+
+
+System.out.println("Digite o primeiro numero: ");
+
+int numero=sc.nextInt();
+
+System.out.println("Digite o segundo numero: ");
+
+int numero1=sc.nextInt();
+
+int multiplicacao=numero*numero1;
+
+System.out.println("A Multiplicação dos numeros é: "+multiplicacao);
+
+}
+
+
+
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+6) 
+package exercicios;
+
+
+
+import java.util.Scanner;
+
+
+
+public class Exercicio06 {
+
+
+
+/*1) Solicite dois valores no teclado e exiba a divisão entre os
+
+* numeros*/
+
+
+
+
+
+public static void main(String[] args) {
+
+
+
+Scanner sc = new Scanner(System.in);
+
+
+
+System.out.println("Digite o primeiro numero: ");
+
+double numero=sc.nextDouble();
+
+System.out.println("Digite o segundo numero: ");
+
+double numero1=sc.nextDouble();
+
+double divisao=numero/numero1;
+
+System.out.println("A divisão dos numeros é: "+divisao);
+
+}
+
+
+
+}
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7)
+package exercicios;
+
+
+
+import java.util.Scanner;
+
+
+
+public class Exercicio07 {
+
+
+
+/*1) Solicite dois valores no teclado e exiba a area entre os
+
+* numeros*/
+
+
+
+
+
+public static void main(String[] args) {
+
+
+
+Scanner sc = new Scanner(System.in);
+
+
+
+System.out.println("Digite o valor da base: ");
+
+double base=sc.nextDouble();
+
+System.out.println("Digite o valor da altura: ");
+
+double altura=sc.nextDouble();
+
+double area=base*altura;
+
+System.out.println("A area do retangulo é: "+area);
+
+}
+
+
+
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8)
+package exercicios;
+
+
+
+import java.util.Scanner;
+
+
+
+public class Exercicio08 {
+
+
+
+/*1) Solicite dois valores no teclado e exiba a area do
+
+* triangulo*/
+
+
+
+
+
+public static void main(String[] args) {
+
+
+
+Scanner sc = new Scanner(System.in);
+
+
+
+System.out.println("Digite o valor da Base: ");
+
+double base=sc.nextDouble();
+
+System.out.println("Digite o valor da Altura: ");
+
+double altura=sc.nextDouble();
+
+double area=base*altura/2;
+
+System.out.println("A area do Triangulo é: "+area);
+
+}
+
+
+
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+9)
+package exercicios;
+
+
+
+import java.util.Scanner;
+
+
+
+public class Exercicio09 {
+
+
+
+/*1) Solicite um valor no teclado e exiba a area do
+
+* Quadrado*/
+
+
+
+
+
+public static void main(String[] args) {
+
+
+
+Scanner sc = new Scanner(System.in);
+
+
+
+System.out.println("Digite o valor do quadrado: ");
+
+float lado=sc.nextFloat();
+
+float area=lado*lado;
+
+System.out.println("A area do Triangulo é: "+area);
+
+}
+
+
+
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+10)
+package exercicios;
+
+
+
+import java.util.Scanner;
+
+
+
+public class Exercicio10 {
+
+
+
+/*1) Solicite um valor no teclado e exiba a area do
+
+* Losango*/
+
+
+
+
+
+public static void main(String[] args) {
+
+
+
+Scanner sc = new Scanner(System.in);
+
+
+
+System.out.println("Digite a dimensão da diagonal maior: ");
+
+float diagonalM=sc.nextFloat();
+
+System.out.println("Digite a dimensão da diagonal menor: ");
+
+float diagonal=sc.nextFloat();
+
+float area=diagonalM*diagonal/2;
+
+System.out.println("A area do Losango é: "+area);
+
+}
+
+
+
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+11)
+package exercicios;
+
+
+
+import java.util.Scanner;
+
+
+
+public class Exercicio11 {
+
+
+
+/*1) Solicite os valores no teclado e exiba a area do
+
+* Losango*/
+
+
+
+
+
+public static void main(String[] args) {
+
+
+
+Scanner sc = new Scanner(System.in);
+
+
+
+System.out.println("Digite a dimensão da base maior: ");
+
+float baseM=sc.nextFloat();
+
+System.out.println("Digite a dimensão da base menor: ");
+
+float base=sc.nextFloat();
+
+System.out.println("Digite a altura: ");
+
+float altura=sc.nextFloat();
+
+float area=(baseM+base)*altura/2;
+
+System.out.println("A area do Trapézio é: "+area);
+
+}
+
+
+
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+12) 
+package exercicios;
+
+
+
+import java.util.Scanner;
+
+
+
+public class Exercicio12 {
+
+
+
+/*1) Solicite um valor no teclado e exiba a area do
+
+* circulo*/
+
+
+
+
+
+public static void main(String[] args) {
+
+
+
+Scanner sc = new Scanner(System.in);
+
+
+
+System.out.println("Digite o valor do Circulo: ");
+
+double raio=sc.nextDouble();
+
+double soma=Math.PI*raio*raio;
+
+System.out.println("A area do Circulo é: "+soma);
+
+
+
+}
+
+
+
+}

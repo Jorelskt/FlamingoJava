@@ -215,3 +215,25 @@ public class Exercicio09 {
 }
 ---------------------------------------------------------------------------------------------------------------------------------------
 10)
+package exercicios03;
+
+import java.util.Scanner;
+
+public class Exercicio10 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o primeiro valor: ");
+		double primeiroValor = sc.nextDouble();
+		System.out.println("Digite o segundo valor: ");
+		double segundoValor = sc.nextDouble();
+		double primeiroResultado=primeiroValor-primeiroValor+segundoValor;
+		double segundoResultado=segundoValor-segundoValor+primeiroValor;
+		System.out.println("O Primeiro Valor é: "+primeiroResultado+" O segundo valor é: "+segundoResultado);
+		
+	}
+
+}
+

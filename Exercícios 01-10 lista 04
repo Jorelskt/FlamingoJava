@@ -1,0 +1,44 @@
+1)
+package exercicio04;
+
+import java.util.Scanner;
+
+public class Exercicio01 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o primeiro valor: ");
+		int valor1 = sc.nextInt();
+		System.out.println("Digite o segundo valor: ");
+		int valor2 = sc.nextInt();
+		System.out.println("Digite o terceiro valor: ");
+		int valor3 = sc.nextInt();
+		System.out.println("Digite o quarto valor: ");
+		int valor4 = sc.nextInt();
+		int soma1=valor1+valor2;
+		int soma2=valor1+valor3;
+		int soma3=valor1+valor4;
+		int soma4=valor2+valor3;
+		int soma5=valor2+valor4;
+		int soma6=valor3+valor4;
+		System.out.println("A soma do 1º valor com o 2º valor é: "+soma1+ "\nA soma do 1º valor com o 3º valor é: "+soma2+
+				"\nA soma do 1º valor com o 4º valor é: "+soma3+ "\nA soma do 2º valor com o 3º valor é: "+soma4+
+				"\nA soma do 2º valor com o 4º valor é: "+soma5+ "\nA soma do 3º valor com o 4º valor é: "+soma6);
+		int multiplicacao1=valor1*valor2;
+		int multiplicacao2=valor1*valor3;
+		int multiplicacao3=valor1*valor4;
+		int multiplicacao4=valor2*valor3;
+		int multiplicacao5=valor2*valor4;
+		int multiplicacao6=valor3*valor4;
+		System.out.println("A multiplicação do 1º valor com é: "+multiplicacao1+ "\nA multiplicação do 1º valor com o 3º valor é: "+multiplicacao2+
+				"\nA multiplicação do 1º valor com o 4º valor é: "+multiplicacao3+ "\nA multiplicação do 2º valor com o 3º valor é: "+multiplicacao4+
+				"\nA multiplicação do 2º valor com o 4º valor é: "+multiplicacao5+ "\nA multiplicação do 3º valor com o 4º valor é: "+multiplicacao6);
+sc.close();
+	}
+
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2)
+Loading...|

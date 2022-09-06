@@ -1,0 +1,104 @@
+package exemplos;
+
+import java.util.Scanner;
+
+public class Exemplo08 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Digite um valor: ");
+		int valor = sc.nextInt();
+		if (valor>20) {
+			System.out.println("O valor digitado é maior que 20.");
+			
+		}
+	sc.close();	
+
+	}
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+package exemplos;
+
+import java.util.Scanner;
+
+public class Exemplo09 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Digite um valor: ");
+		int valor = sc.nextInt();
+		if (valor>20) {
+			System.out.println("Valor digitado é maior que 20.");
+		} else {
+			System.out.println("Valor digitado é menor que 20.");
+			
+		}
+sc.close();
+		
+	}
+
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+package exemplos;
+
+import java.util.Scanner;
+
+public class Exemplo10 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Digite um valor: ");
+		int valor = sc.nextInt();
+		if (valor>20) {
+			System.out.println("O valor digitado é maior que 20");
+		} else if (valor==20){
+			System.out.println("O valor digitado é igual a 20");
+		} else {
+			System.out.println("O valor digitado é menor que 20");
+		}
+sc.close();
+	}
+
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+package exemplos;
+
+import java.util.Scanner;
+
+public class DiasSemana {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite um numero: ");
+		int diaSemana = sc.nextInt();
+		if (diaSemana==7) {
+			System.out.println("O dia da semana é Sabado");
+		} else if (diaSemana==6){
+			System.out.println("O dia da semana é Sexta-Feira");
+		} else if (diaSemana==5){
+			System.out.println("O dia da semana é Quinta-Feira");
+		} else if (diaSemana==4){
+			System.out.println("O dia da semana é Quarta-Feira");
+		} else if (diaSemana==3){
+			System.out.println("O dia da semana é Terça-Feira");
+		} else if (diaSemana==2){
+			System.out.println("O dia da semana é Segunda-Feira");
+		} else if (diaSemana==1){
+			System.out.println("O dia da semana é Domingo");
+		} else {
+			System.out.println("Valor invalido");
+		}
+sc.close();
+	}
+
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+

@@ -41,4 +41,29 @@ sc.close();
 }
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2)
+package exercicio04;
+
+import java.util.Scanner;
+
+public class Exercicio02 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o comprimento da caixa: ");
+		double comprimentoCaixa = sc.nextDouble();
+		System.out.println("Digite a largura da caixa: ");
+		double larguraCaixa = sc.nextDouble();
+		System.out.println("Digite a altura da caixa: ");
+		double alturaCaixa = sc.nextDouble();
+		double volumeCaixa=comprimentoCaixa*larguraCaixa*alturaCaixa;
+		System.out.println("O Volume da caixa retangular é: "+volumeCaixa);
+
+		sc.close();
+	}
+
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3)
 Loading...|

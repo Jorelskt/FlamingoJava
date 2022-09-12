@@ -217,5 +217,28 @@ sc.close();
 }
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 9)
+package exercicio04;
+
+import java.util.Scanner;
+
+public class Exercicio09 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Informe o valor do salario mensal: ");
+		float salarioMensal = sc.nextFloat();
+		System.out.println("Informe o percentual do reajuste: ");
+		float salarioPr = sc.nextFloat();
+		float novoSalario = salarioMensal / 100 * salarioPr + salarioMensal;
+		System.out.println("O valor do novo salario é de R$" + novoSalario);
+
+		sc.close();
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10)
 
 Loading...|

@@ -90,6 +90,51 @@ public class Exercicio03 {
 }
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 4)
+package exercicio04;
 
+import java.util.Scanner;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Digite o valor do dolar");
+		double cotacaoDolar = sc.nextDouble();
+		System.out.println("Digite o valor em dolar: ");
+		double valorConversao=sc.nextDouble();
+		double resultadoConversao= cotacaoDolar*valorConversao;
+		System.out.println("O resultado da conversão é de R$"+resultadoConversao);
+	sc.close();
+
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5)
+package exercicio04;
+
+import java.util.Scanner;
+
+public class Exercicio05 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Digite cotação do Dolar: ");
+		float cotacaoDolar = sc.nextFloat();
+		System.out.println("Digite o valor em real: ");
+		float valorConversao=sc.nextFloat();
+		float resultadoConversao= cotacaoDolar/valorConversao;
+		System.out.println("O resultado da conversão é de $"+resultadoConversao);
+	sc.close();
+
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6)
 
 Loading...|

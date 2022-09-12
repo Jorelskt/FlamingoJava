@@ -80,9 +80,8 @@ public class Exercicio03 {
 		int primeiroValor = sc.nextInt();
 		System.out.println("Informe o segundo valor: ");
 		int segundoValor = sc.nextInt();
-		int somaDosValores=primeiroValor-segundoValor;
-		int valorFinal=somaDosValores*somaDosValores;
-		System.out.println("A diferença ao quadrado do 1º valor com o 2º valor é: "+valorFinal);
+		int somaDosValores=primeiroValor*primeiroValor-segundoValor*segundoValor;
+		System.out.println("A diferença ao quadrado do 1º valor com o 2º valor é: "+somaDosValores);
 		
 	sc.close();
 		

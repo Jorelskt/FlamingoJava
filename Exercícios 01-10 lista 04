@@ -66,4 +66,31 @@ public class Exercicio02 {
 }
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3)
+package exercicio04;
+
+import java.util.Scanner;
+
+public class Exercicio03 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Informe o primeiro valor: ");
+		int primeiroValor = sc.nextInt();
+		System.out.println("Informe o segundo valor: ");
+		int segundoValor = sc.nextInt();
+		int somaDosValores=primeiroValor-segundoValor;
+		int valorFinal=somaDosValores*somaDosValores;
+		System.out.println("A diferença ao quadrado do 1º valor com o 2º valor é: "+valorFinal);
+		
+	sc.close();
+		
+	}
+
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4)
+
+
 Loading...|

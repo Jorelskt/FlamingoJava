@@ -164,5 +164,58 @@ public class Exercicio06 {
 }
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 7)
+package exercicio04;
+
+import java.util.Scanner;
+
+public class Exercicio07 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Digite o primeiro valor: ");
+		int primeiroValor = sc.nextInt();
+		System.out.println("Digite o segundo valor: ");
+		int segundoValor = sc.nextInt();
+		System.out.println("Digite o terceiro valor: ");
+		int terceiroValor = sc.nextInt();
+		int somaTotal=primeiroValor*segundoValor*terceiroValor;
+		System.out.println("A soma dos 3 valores ao quadrado é: "+somaTotal);
+
+	sc.close();
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8)
+package exercicio04;
+
+import java.util.Scanner;
+
+public class Exercicio08 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Digite o primeiro valor: ");
+		int valor1 = sc.nextInt();
+		System.out.println("Digite o segundo valor: ");
+		int valor2 = sc.nextInt();
+		System.out.println("Digite o terceiro valor: ");
+		int valor3 = sc.nextInt();
+		System.out.println("Digite o quarto valor: ");
+		int valor4 = sc.nextInt();
+		int produtoP=valor1*valor3;
+		int produtoS=valor2*valor4;
+		System.out.println("O resultado do 1º valor com o 3º valor é de: "+produtoP+ "\nO resultado do 2º valor com o 4º valor é de: "+produtoS);
+		
+sc.close();
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9)
 
 Loading...|

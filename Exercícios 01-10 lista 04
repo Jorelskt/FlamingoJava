@@ -240,5 +240,46 @@ public class Exercicio09 {
 }
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 10)
+package exercicio04;
 
-Loading...|
+import java.util.Scanner;
+
+public class Exercicio10 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Informe a quantidade de votos válidos de Bolsonaro: ");
+		int votosValidosBolso = sc.nextInt();
+		System.out.println("Informe a quantidade de votos válidos de Lula");
+		int votosValidosLula = sc.nextInt();
+		System.out.println("Informe a quantidade de votos válidos de cachorro caramelo: ");
+		int votosValidosCaramelo = sc.nextInt();
+		
+		System.out.println("Informe a quantidade de votos nulos: ");
+		int votosNulos = sc.nextInt();
+		
+		System.out.println("Informa a quantidade de votos brancos: ");
+		int votosBrancos = sc.nextInt();
+		int valorTotalEleitores=votosValidosBolso+votosValidosLula+votosValidosCaramelo+votosNulos+votosBrancos;
+		
+		double perceVotosValidos=votosValidosBolso+votosValidosLula+votosValidosCaramelo/100*votosValidosBolso+votosValidosLula+votosValidosCaramelo;
+		double perceVotosValidosBolso=votosValidosBolso/100*valorTotalEleitores;
+		double perceVotosValidosLula=votosValidosLula/100*valorTotalEleitores;
+		double perceVotosValidosCaramelo=votosValidosCaramelo/100*valorTotalEleitores;
+		double perceVotosNulos=votosNulos/100*valorTotalEleitores;
+		double perceVotosBrancos=votosBrancos/100*valorTotalEleitores;
+		System.out.println("O numero total de eleitores é de: "+valorTotalEleitores+ "\nO percentual de votos validos é de: "+perceVotosValidos+
+				"\nO percentual de votos validos de Bolsonaro é de: "+perceVotosValidosBolso+ "\nO percentual de votos validos de Lula é de: "+perceVotosValidosLula+
+				"\nO percentual de votos validos de Cachorro Caramelo é de: "+perceVotosValidosCaramelo+ "\nO percentual de votos nulos é de: "+perceVotosNulos+
+				"\nO percentual de votos validos em branco é de: "+perceVotosBrancos);
+
+		sc.close();
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Fim?...

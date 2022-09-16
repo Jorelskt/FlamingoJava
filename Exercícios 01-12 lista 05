@@ -25,5 +25,80 @@ sc.close();
 }
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2)
+package exercicio05;
+
+import java.util.Scanner;
+
+public class Exercicio02 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite um numero: ");
+		int valor1 = sc.nextInt();
+		if (valor1<0) {
+			System.out.println("O numero digitado é negativo!");
+		} else {
+			System.out.println("O numero digitado é positivo!");
+		}
+sc.close();
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3)
+package exercicio05;
+
+import java.util.Scanner;
+
+public class Exercicio03 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Quantas maçãs deseja comprar: ");
+		int maca = sc.nextInt();
+		if(maca<12) {
+		double valorfinal=maca*1.30;
+			System.out.println("Você deve pagar R$"+valorfinal);
+		} else {
+		int valorfinal2=maca;
+			System.out.println("Você deve pagar R$"+valorfinal2);
+		}
+sc.close();
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4)
+package exercicio05;
+
+import java.util.Scanner;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe a nota da 1º avaliação: ");
+		int primeiraNota = sc.nextInt();
+		System.out.println("Informe a nota da 2º avaliação: ");
+		int segundaNota = sc.nextInt();
+		int somaNotas=(primeiraNota+segundaNota)/2;
+		if(somaNotas>=6) {
+			System.out.println("Voce esta aprovado!");
+		} else {
+			System.out.println("Voce esta reprovado!");
+		}
+	sc.close();
+	}
+
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5)
+
 
 Loading...

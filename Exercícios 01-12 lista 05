@@ -99,6 +99,59 @@ public class Exercicio04 {
 }
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 5)
+package exercicio05;
+
+import java.util.Scanner;
+
+public class Exercicio05 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o ano atual: ");
+		int anoAtual = sc.nextInt();
+		System.out.println("Digite o seu ano de nascimento: ");
+		int anoNascimento = sc.nextInt();
+		int somaAnuaria=anoAtual-anoNascimento;
+		if (somaAnuaria>=16) {
+			System.out.println("Você pode votar!");
+		} else {
+			System.out.println("Você não pode votar!");
+		}
+sc.close();
+	}
+
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6)
+package exercicio05;
+
+import java.util.Scanner;
+
+public class Exercicio06 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o primeiro valor: ");
+		int valor1 = sc.nextInt();
+		System.out.println("Digite o segundo valor: ");
+		int valor2 = sc.nextInt();
+		if (valor1>valor2) {
+			System.out.println(valor1);
+		} else if (valor1==valor2) {
+			System.out.println("Numero inválido");
+		} else {
+			System.out.println(valor2);
+		}
+sc.close();
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7)
 
 
 Loading...

@@ -152,6 +152,60 @@ sc.close();
 }
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 7)
+package exercicio05;
+
+import java.util.Scanner;
+
+public class Exercicio07 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o primeiro valor: ");
+		int batata = sc.nextInt();
+		System.out.println("Digite o segundo valor: ");
+		int uva = sc.nextInt();
+		if (uva>batata) {
+			System.out.println(batata+ "," +uva);
+		} else if (batata==uva) {
+			System.out.println("Numero inválido");
+		} else {
+			System.out.println(uva+ "," +batata);
+		}
+sc.close();
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8)
+package exercicio05;
+
+import java.util.Scanner;
+
+public class Exercicio08 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite a hora de inicio do jogo: ");
+		int horaInicial = sc.nextInt();
+		System.out.println("Digite a hora de final do jogo: ");
+		int horaFim = sc.nextInt();
+		int somaHorarios=horaFim-horaInicial;
+		int somaHorarios2=somaHorarios+24;
+		if (somaHorarios>0) {
+			System.out.println("O jogo durou as "+somaHorarios);
+		} else{
+			System.out.println("O jogo durou "+somaHorarios2);
+		}
+sc.close();
+	}
+
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9)
 
 
 Loading...

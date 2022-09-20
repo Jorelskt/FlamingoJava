@@ -196,9 +196,9 @@ public class Exercicio08 {
 		int somaHorarios=horaFim-horaInicial;
 		int somaHorarios2=somaHorarios+24;
 		if (somaHorarios>0) {
-			System.out.println("O jogo durou as "+somaHorarios);
+			System.out.println("O jogo durou "+somaHorarios+ "Horas");
 		} else{
-			System.out.println("O jogo durou "+somaHorarios2);
+			System.out.println("O jogo durou "+somaHorarios2+ "Horas");
 		}
 sc.close();
 	}
@@ -206,6 +206,33 @@ sc.close();
 }
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 9)
+package exercicio05;
+
+import java.util.Scanner;
+
+public class Exercicio09 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Informe o numero de horas trabalhadas no mês: ");
+		double horasMes = sc.nextDouble();
+		System.out.println("Informe o salário por hora: ");
+		double salarioHora = sc.nextDouble();
+		double salarioFinal=horasMes*salarioHora*4;
+		double salarioExtra=horasMes*50/100+salarioFinal;
+		if (horasMes>40) {
+			System.out.println("O Sálario total do Funcionario com as extras é de R$"+salarioExtra);
+		} else {
+			System.out.println("O Sálario total do Funcionario é de R$"+salarioFinal);
+		}
+sc.close();
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10)
 
 
 Loading...

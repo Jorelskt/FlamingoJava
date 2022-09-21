@@ -233,6 +233,37 @@ sc.close();
 }
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 10)
+package exercicio05;
+
+import java.util.Scanner;
+
+public class Exercicio11 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe o numero da conta: ");
+		double numeroConta = sc.nextDouble();
+		System.out.println("Informe o saldo que a na conta: ");
+		double saldoConta = sc.nextDouble();
+		System.out.println("Informe o valor que a no débito: ");
+		double valorDebito = sc.nextDouble();
+		System.out.println("Informe o valor que a no crédito: ");
+		double valorCredito = sc.nextDouble();
+		double saldoAtual=saldoConta-valorDebito+valorCredito;
+		System.out.println("O saldo atual é de R$"+saldoAtual);
+		if (saldoAtual>=0) {
+			System.out.println("Valor positivo!");
+		} else {
+			System.out.println("Valor negativo!");
+		}
+sc.close();
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+12)
 
 
 Loading...

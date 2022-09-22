@@ -263,7 +263,62 @@ sc.close();
 
 }
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11)
+package exercicio05;
+
+import java.util.Scanner;
+
+public class Exercicio11 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe o numero da conta: ");
+		double numeroConta = sc.nextDouble();
+		System.out.println("Informe o saldo que a na conta: ");
+		double saldoConta = sc.nextDouble();
+		System.out.println("Informe o valor que a no débito: ");
+		double valorDebito = sc.nextDouble();
+		System.out.println("Informe o valor que a no crédito: ");
+		double valorCredito = sc.nextDouble();
+		double saldoAtual=saldoConta-valorDebito+valorCredito;
+		System.out.println("O saldo atual é de R$"+saldoAtual);
+		if (saldoAtual>=0) {
+			System.out.println("Valor positivo!");
+		} else {
+			System.out.println("Valor negativo!");
+		}
+sc.close();
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 12)
+package exercicio05;
 
+import java.util.Scanner;
 
-Loading...
+public class Exercicio12 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Informe a quantidade atual do produto em estoque: ");
+		int quantidadeAtual = sc.nextInt();
+		System.out.println("Informe a quantidade máxima do estoque: ");
+		int quantidadeMaxima = sc.nextInt();
+		System.out.println("Informe a quantidade minima do estoque: ");
+		int quantidadeMinima = sc.nextInt();
+		int quantidadeMedia=((quantidadeMaxima+quantidadeMinima)/2);
+		if (quantidadeAtual>=quantidadeMedia) {
+			System.out.println("Não é possivel concluir a venda, produto indisponivel em estoque!");
+		} else {
+			System.out.println("Produto disponivel em estoque para a compra!");
+		}
+sc.close();
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------

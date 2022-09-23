@@ -1,0 +1,118 @@
+1)
+package exercicio06;
+
+import java.util.Scanner;
+
+public class Exercicio02 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Informe o valor: ");
+		int valorUsuario = sc.nextInt();
+		int valorFinal=valorUsuario*-1;
+		if (valorFinal<0) {
+			System.out.println("O valor é: "+valorUsuario);
+		} else {
+			System.out.println("O valor é: "+valorFinal);
+		}
+sc.close();		
+	}
+
+}
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2)
+package exercicio06;
+
+import java.util.Scanner;
+
+public class Exercicio02 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Informe o valor: ");
+		int valorUsuario = sc.nextInt();
+		int valorFinal=valorUsuario*-1;
+		if (valorFinal<0) {
+			System.out.println("O valor é: "+valorUsuario);
+		} else {
+			System.out.println("O valor é: "+valorFinal);
+		}
+sc.close();		
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3)
+package exercicio06;
+
+import java.util.Scanner;
+
+public class Exercicio03 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Informe a primeira nota: ");
+		int primeiraNota = sc.nextInt();
+		System.out.println("Informe a segunda nota: ");
+		int segundaNota = sc.nextInt();
+		System.out.println("Informe a terceira nota: ");
+		int terceiraNota= sc.nextInt();
+		System.out.println("Informe a quarta nota: ");
+		int quartaNota = sc.nextInt();
+		int resultadoFinal=(primeiraNota+segundaNota+terceiraNota+quartaNota)/4;
+		if (resultadoFinal>=5) {
+			System.out.println("Parabens você está aprovado! :D");
+		} else {
+			System.out.println("Desculpe você está reprovado! :(");
+		}
+sc.close();
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4)
+package exercicio06;
+
+import java.util.Scanner;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner (System.in);
+		
+		System.out.println("Informe a primeira nota: ");
+		float nota1 = sc.nextFloat();
+		System.out.println("Informe a segunda nota: ");
+		float nota2 = sc.nextFloat();
+		System.out.println("Informe a terceira nota: ");
+		float nota3 = sc.nextFloat();
+		System.out.println("Informe a quarta nota: ");
+		float nota4 = sc.nextFloat();
+		float resultado1=(nota1+nota2+nota3+nota4)/4;
+		if (resultado1>=7) {
+			System.out.println("Parabens você está aprovado e sua média é: "+resultado1);
+		} else {
+			System.out.println("Informe a nota do exame: ");
+			float notaExame = sc.nextFloat();
+			float resultado2=(resultado1+notaExame)/2;
+		if (resultado2>=5)
+			System.out.println("Você está aprovado e sua média é: "+resultado2);
+		else {
+			System.out.println("Você está reprovado e sua média é: "+resultado2);
+		}
+sc.close();
+	}
+}
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5)
+
+
+Loading...

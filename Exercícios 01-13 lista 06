@@ -113,6 +113,74 @@ sc.close();
 }
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
 5)
+package exercicio06;
+
+import java.util.Scanner;
+
+public class Exercicio05 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe o primeiro valor: ");
+		double valor1 = sc.nextDouble();
+		System.out.println("Informe o segundo valor: ");
+		double valor2 = sc.nextDouble();
+		System.out.println("Informe o terceiro valor: ");
+		double valor3 = sc.nextDouble();
+		double soma1=((valor2*valor2)-4*valor1*valor3);
+		double soma2=soma1/2;
+		
+		if (valor1==0) {
+			System.out.println("Numero digitado é invalido");
+		} else {
+			System.out.println("A primeira raiz é: "+soma1+ "\nA segunda raiz é: "+soma2);
+		}
+sc.close();
+	}
+
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6)
+package exercicio06;
+
+import java.util.Scanner;
+
+public class Exercicio06 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe o primeiro valor: ");
+		int valorA = sc.nextInt();
+		System.out.println("Informe o segundo valor: ");
+		int valorB = sc.nextInt();
+		System.out.println("Informe o terceiro valor: ");
+		int valorC = sc.nextInt();
+		if (valorA<valorB) {
+			if (valorB<valorC) {
+				System.out.println(valorA+ "," +valorB+ "," +valorC);
+			} else if (valorA<valorC) {
+				System.out.println(valorA+ "," +valorC+ "," +valorB);
+			} else {
+				System.out.println(valorC+ "," +valorA+ "," +valorB);
+		}			
+			} else if (valorB<valorC) {
+					if (valorA<valorC) {
+				System.out.println(valorB+ "," +valorA+ "," +valorC);
+			} else {
+			System.out.println(valorB+ "," +valorC+ "," +valorA);
+		}
+			} else {
+				System.out.println(valorC+ "," +valorB+ "," +valorA);
+			}
+	sc.close();
+	}
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7)
 
 
 Loading...

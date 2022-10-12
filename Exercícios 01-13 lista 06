@@ -181,6 +181,44 @@ public class Exercicio06 {
 }
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 7)
+package exercicio06;
+
+import java.util.Scanner;
+
+public class Exercicio07 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Informe o primeiro numero: ");
+		int valor1 = sc.nextInt();
+		System.out.println("Informe o segundo numero: ");
+		int valor2 = sc.nextInt();
+		System.out.println("Informe o terceiro numero: ");
+		int valor3 = sc.nextInt();
+		System.out.println("Informe o quarto numero: ");
+		int valor4 = sc.nextInt();
+
+		if ((valor1 % 2 == 0) && (valor1 % 3 == 0)) {
+			System.out.println("O numero informa é dividido por 2 e por 3 e o numero é :" + valor1);
+		}
+		if ((valor2 % 2 == 0) && (valor2 % 3 == 0)) {
+			System.out.println("O numero informado é dividido por 2 e por 3 e o numero é :" + valor2);
+		}
+		if ((valor3 % 2 == 0) && (valor3 % 3 == 0)) {
+			System.out.println("O numero informado é dividido por 2 e por 3 e o numero é :" + valor3);
+		}
+		if ((valor4 % 2 == 0) && (valor4 % 3 == 0)) {
+			System.out.println("O numero informado é dividido por 2 e por 3 e o numero é :" + valor4);
+		} else {
+			System.out.println("Dos numeros informados nenhum deles é dividido por 2 nem por 3");
+		}
+		sc.close();
+	}
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8)
 
 
 Loading...

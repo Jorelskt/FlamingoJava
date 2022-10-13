@@ -219,6 +219,63 @@ public class Exercicio07 {
 }
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 8)
+package exercicio06;
+
+import java.util.Scanner;
+
+public class Exercicio08 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Informe o primeiro numero: ");
+		int valor1 = sc.nextInt();
+		System.out.println("Informe o segundo numero: ");
+		int valor2 = sc.nextInt();
+		System.out.println("Informe o terceiro numero: ");
+		int valor3 = sc.nextInt();
+		System.out.println("Informe o quarto numero: ");
+		int valor4 = sc.nextInt();
+		System.out.println("Informe o quinto numero: ");
+		int valor5 = sc.nextInt();
+		
+		if ((valor1 >= valor2) && (valor1 >= valor3) && (valor1 >= valor4) && (valor1 >= valor5)){
+			System.out.println("O valor maior é o: "+valor1);
+		}
+		if ((valor2 >= valor1) && (valor2 >= valor3) && (valor2 >= valor4) && (valor2 >= valor5)){
+			System.out.println("O valor maior é o: "+valor2);
+		}
+		if ((valor3 >= valor1) && (valor3 >= valor2) && (valor3 >= valor4) && (valor3 >= valor5)){
+			System.out.println("O valor maior é o: "+valor3);
+		}
+		if ((valor4 >= valor1) && (valor4 >= valor2) && (valor4 >= valor3) && (valor4 >= valor5)){
+			System.out.println("O valor maior é o: "+valor4);
+		}
+		if ((valor5 >= valor1) && (valor5 >= valor2) && (valor5 >= valor3) && (valor5 >= valor4)){
+			System.out.println("O valor maior é o: "+valor5);
+		}
+		
+				if ((valor1 <= valor2) && (valor1 <= valor3) && (valor1 <= valor4) && (valor1 <= valor5)){
+					System.out.println("O valor menor é o: "+valor1);
+				}
+				if ((valor2 <= valor1) && (valor2 <= valor3) && (valor2 <= valor4) && (valor2 <= valor5)){
+					System.out.println("O valor menor é o: "+valor2);
+				}
+				if ((valor3 <= valor1) && (valor3 <= valor2) && (valor3 <= valor4) && (valor3 <= valor5)){
+					System.out.println("O valor menor é o: "+valor3);
+				}
+				if ((valor4 <= valor1) && (valor4 <= valor2) && (valor4 <= valor3) && (valor4 <= valor5)){
+					System.out.println("O valor menor é o: "+valor4);
+				}
+				if ((valor5 <= valor1) && (valor5 <= valor2) && (valor5 <= valor3) && (valor5 <= valor4)){
+					System.out.println("O valor menor é o: "+valor5);
+		}
+	}
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9)
+
 
 
 Loading...

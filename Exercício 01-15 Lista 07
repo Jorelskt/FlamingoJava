@@ -1,0 +1,63 @@
+1)
+
+package exercicio07;
+
+import java.util.Scanner;
+
+public class Exercicio01 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Informe um valor: ");
+		int valor = sc.nextInt();
+		if (valor == 0) {
+			System.out.println("Zero");
+		} else if (valor < 0) {
+			System.out.println("Numero é negativo");
+		} else {
+			System.out.println("Numero é positivo");
+		}
+		sc.close();
+	}
+
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2)
+package exercicio07;
+
+import java.util.Scanner;
+
+public class Exercicio02 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Informe o primeiro valor: ");
+		int valorUm = sc.nextInt();
+		System.out.println("Informe o segundo valor: ");
+		int valorDois = sc.nextInt();
+		System.out.println("Informe o terceiro valor: ");
+		int valorTres = sc.nextInt();
+		if ((valorUm > valorDois) && (valorUm > valorTres)) {
+			System.out.println("O maior numero é o: " + valorUm);
+		} else if ((valorDois > valorUm) && (valorDois > valorTres)) {
+			System.out.println("O maior numero é o: " + valorDois);
+		} else {
+			System.out.println("O maior numero é o: " + valorTres);
+			}
+sc.close();	
+	}
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3)
+
+
+
+
+
+
+
+

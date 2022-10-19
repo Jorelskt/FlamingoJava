@@ -1,0 +1,113 @@
+1)
+package orientacaoAObjeto;
+
+public class Celular {
+
+	String[] marca = { "Iphone", "Samsung" };
+	String[] memoria = { "128gb", "64gb" };
+	int[] valor = { 3400, 2200 };
+	double[] software = { 15.00, 12.15 };
+	int[] anoFabricacao = {2020, 2021};
+
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2)
+package orientacaoAObjeto;
+
+public class Computador {
+		
+	String[] marca = {"Dell", "Samsung", "Positivo"};
+	String[] memoria = {"8gb ram", "16gb ram", "8gb ram"};
+	int[] valor = {3400, 5325, 3220};
+	String[] processador = {"Intel core i5", "Intel core i5", "Intel core i4"};
+	int[] anoFabricacao = {2020, 2021, 2020};
+
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3)
+package orientacaoAObjeto;
+
+public class ExibirDadosCelular {
+
+	public static void main(String[] args) {
+		
+		for (int j = 0; j < 2; j++) {
+			
+		Celular cadastrado = new Celular();
+		
+		System.out.println("Marcas:"+cadastrado.marca[j]);
+		System.out.println("Memória:"+cadastrado.memoria[j]);
+		System.out.println("Valor:"+cadastrado.valor[j]);
+		System.out.println("Software:"+cadastrado.software[j]);
+		System.out.println("Ano de Fabricação:"+cadastrado.anoFabricacao[j]);
+		System.out.println("");		
+	}
+
+}
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4)
+package orientacaoAObjeto;
+
+public class ExibirDadosComputador {
+
+	public static void main(String[] args) {
+		
+		for (int i = 0; i < 3; i++) {
+		
+		Computador cadastro = new Computador();
+		
+		System.out.println("Marcas:"+cadastro.marca[i]);
+		System.out.println("Memoria:"+cadastro.memoria[i]);
+		System.out.println("Valor:"+cadastro.valor[i]);
+		System.out.println("Processador:"+cadastro.processador[i]);
+		System.out.println("Ano de Fabricação:"+cadastro.anoFabricacao[i]);
+		System.out.println("");
+		
+		}
+
+	}
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5)
+package orientacaoAObjeto;
+
+public class Bicicleta {
+
+	String[] marca = {"GTS PRO M5", "Caloi", "Avance"};
+	String[] cor = {"Preta", "Amarela e cinza", "Preta"};
+	int[] aro = {29, 29, 30};
+	String[] material = {"Alumínio", "Alumínio", "Alumínio"};
+	String[] peso = {"14.5 kg", "15 kg", "15 kg" };
+	
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6)
+package orientacaoAObjeto;
+
+public class ExibirDadosBicicleta {
+
+	public static void main(String[] args) {
+
+		for (int i = 0; i < 3; i++) {
+
+			Bicicleta descricao = new Bicicleta();
+
+			System.out.println("Marcas:" + descricao.marca[i]);
+			System.out.println("Cor:" + descricao.cor[i]);
+			System.out.println("Aro:" + descricao.aro[i]);
+			System.out.println("Material:" + descricao.material[i]);
+			System.out.println("Peso:" + descricao.peso[i]);
+			System.out.println("");
+
+		}
+	}
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7)
+
+
+
+
+
+

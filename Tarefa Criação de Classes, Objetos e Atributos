@@ -105,9 +105,39 @@ public class ExibirDadosBicicleta {
 }
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 7)
+package orientacaoAObjeto;
+
+public class CadeiraGamer {
+
+	String[] marca = { "Pctop Racer", "MyMax MX1", "Prizi Kombat" };
+	String[] cor = { "Preto/Vermelho", "Preta", "Preto/Vermelhor" };
+	String[] material = { "Couro sintético", "Couro", "Couro sintético" };
+	String[] valor = { "R$740.00", "R$644,16", "R$849,90" };
+	String[] possuiRodas = { "Sim", "Não", "Sim" };
+
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8)
+package orientacaoAObjeto;
+
+public class ExibirDadosCadeiraGamer {
+
+	public static void main(String[] args) {
+
+		for (int i = 0; i < 3; i++) {
+
+			CadeiraGamer descricao = new CadeiraGamer();
+
+			System.out.println("Marca:" + descricao.marca[i]);
+			System.out.println("Cor:" + descricao.cor[i]);
+			System.out.println("Materia:" + descricao.material[i]);
+			System.out.println("Valor:" + descricao.valor[i]);
+			System.out.println("Possui rodas:" + descricao.possuiRodas[i]);
+			System.out.println("");
+
+		}
+	}
+}
 
 
-
-
-
-
+Fim XD

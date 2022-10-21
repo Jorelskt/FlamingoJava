@@ -123,11 +123,128 @@ sc.close();
 	}
 }
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5)
+package exercicio07;
 
+import java.util.Scanner;
 
+public class Exercicio05 {
 
+	public static void main(String[] args) {
 
+		Scanner sc = new Scanner(System.in);
 
+		System.out.println("Informe o primeiro valor: ");
+		int valor1 = sc.nextInt();
+		System.out.println("Informe o segundo valor: ");
+		int valor2 = sc.nextInt();
+		System.out.println("Informe o terceiro valor: ");
+		int valor3 = sc.nextInt();
+		int resultado1 = valor1 + valor2;
+		int resultado2 = valor1 + valor3;
+		int resultado3 = valor2 + valor3;
+		
+		if ((valor1 == valor2) || (valor1 == valor3) || (valor2 == valor3)){
+			System.out.println("Não é um triangulo");
+			
+		} else if ((valor1 < resultado3) || (valor2 < resultado2) || (valor3 < resultado1)){
+			System.out.println("É um triangulo");
+		}
+sc.close();
+	}
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6)
+package exercicio07;
+
+import java.util.Scanner;
+
+public class Exercicio06 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe o nome do primeiro time: ");
+		String nome1 = sc.nextLine();
+		System.out.println("Informe o nome do segundo time: ");
+		String nome2 = sc.nextLine();
+		
+		System.out.println("Informe o numero de gols do "+nome1);
+		int gol1 = sc.nextInt();
+		System.out.println("Informe o numero de gols do "+nome2);
+		int gol2 = sc.nextInt();
+		
+		if (gol1 == gol2) {
+			System.out.println("Empate");
+		} else if (gol1 > gol2) {
+			System.out.println("O vencedor é o "+nome1);
+		} else {
+			System.out.println("O vencedor é o "+nome2);
+		}
+sc.close();
+	}
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7)
+package exercicio07;
+
+import java.util.Scanner;
+
+public class Exercicio07 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Informe o primeiro valor: ");
+		int valor1 = sc.nextInt();
+		System.out.println("Informe o segundo valor: ");
+		int valor2 = sc.nextInt();
+
+		if (valor1 == valor2) {
+			System.out.println("Números iguais");
+		} else if (valor1 > valor2) {
+			System.out.println("Primeiro é maior");
+		} else {
+			System.out.println("Segundo é maior");
+		}
+		sc.close();
+	}
+
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8)
+package exercicio07;
+
+import java.util.Scanner;
+
+public class Exercicio08 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Informe o primeiro valor: ");
+		int valor1 = sc.nextInt();
+		System.out.println("Informe o segundo valor: ");
+		int valor2 = sc.nextInt();
+		int resultado1 = valor1 * valor2 + 5;
+
+		if (resultado1 <= 0) {
+			System.out.println("O valor é: " + resultado1 + "\nA");
+		} else if (resultado1 <= 100) {
+			System.out.println("O valor é: " + resultado1 + "\nB");
+		} else {
+			System.out.println("O valor é: " + resultado1 + "\nC");
+		}
+		sc.close();
+	}
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9)
+
+	
 
 
 

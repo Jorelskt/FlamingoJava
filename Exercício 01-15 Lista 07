@@ -243,8 +243,100 @@ public class Exercicio08 {
 }
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 9)
+package exercicio07;
 
-	
+import java.util.Scanner;
+
+public class Exercicio09 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		double valorAlcool = 2.90;
+		double valorGasolina = 3.30;
+
+		System.out.println("Informe o numero de litros vendido: ");
+		int litroV = sc.nextInt();
+		System.out.println("Qual o tipo do combustivel é 1 - Álcool ou 2 - Gasolina? ");
+		int tipoC = sc.nextInt();
+		
+		double tenta = valorAlcool * litroV;
+		double tenta2 = valorGasolina * litroV;
+		
+		double sominhaA = valorAlcool * 3 / 100 * valorAlcool;
+		double sominhaA2 = valorAlcool * 5 / 100 * valorAlcool;
+		double sominhaG = valorGasolina * 4 / 100 * valorGasolina;
+		double sominhaG2 = valorGasolina * 6 / 100 * valorGasolina;
+		
+		
+		double preco1 = tenta - sominhaA;
+		double preco2 = tenta2 - sominhaA2;
+		double preco3 = tenta - sominhaG;
+		double preco4 = tenta2 - sominhaG2;
+		
+		if ((tipoC == 1) && (litroV <= 20)) {
+			System.out.println("Quantidade de litros de Álcool vendido é de: " + preco1);
+			
+		} else if ((tipoC == 1) && (litroV > 20)) {
+			System.out.println("Quantidade de litros de Álcool vendido é de: " + preco2);
+			
+		} else if ((tipoC == 2) && (litroV <= 20)) {
+			System.out.println("Quantidade de litros de Gasolina vendida é de: " + preco3);
+			
+		} else if ((tipoC == 2) && (litroV > 20)) {
+			System.out.println("Quantidade de litros de Gasolina vendida é de: " + preco4);
+		}
+sc.close();	
+	}
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10) 
+package exercicio07;
+
+import java.util.Scanner;
+
+public class Exercicio10 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe a idade do primeiro homem: ");
+		int valor1 = sc.nextInt();
+		System.out.println("Informe a idade do segundo homem: ");
+		int valor2 = sc.nextInt();
+		System.out.println("Informe a idade da primeira mulher: ");
+		int valor3 = sc.nextInt();
+		System.out.println("Informe a idade da segunda mulher: ");
+		int valor4 = sc.nextInt();
+		
+		if ((valor1 == valor2) || (valor3 == valor4)) {
+			System.out.println("Inválido");
+			
+		} else if ((valor1 > valor2) && (valor3 > valor4)){
+			System.out.println(valor1 + valor4);
+			System.out.println(valor2 + valor3);
+		
+		} else if ((valor2 > valor1) && (valor4 > valor3)) {
+			System.out.println(valor2 + valor3);
+			System.out.println(valor1 + valor4);
+		
+		} else if ((valor3 > valor4) && (valor1 > valor2)) {
+			System.out.println(valor3 + valor2);
+			System.out.println(valor4 + valor1);
+			
+		}else if ((valor4 > valor3) && (valor2 > valor1)) {
+			System.out.println(valor4 + valor1);
+			System.out.println(valor3 + valor2);
+		}
+sc.close();
+	}
+}
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11)
+
+
 
 
 

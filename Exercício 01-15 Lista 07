@@ -335,7 +335,80 @@ sc.close();
 }
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
 11)
+package exercicio07;
 
+import java.util.Scanner;
+
+public class Exercicio11 {
+
+	public static void main(String[] args) {
+
+		double morango = 2.50;
+		double morango2 = 2.20;
+		double maca = 1.80;
+		double maca2 = 1.50;
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Informe a quantidade de Kg de morango comprado: ");
+		double morangoKg = sc.nextDouble();
+		System.out.println("Informe a quantidade de Kg de maças comprada: ");
+		double macaKg = sc.nextDouble();
+
+		double soma1 = morango * morangoKg;
+		double soma2 = morango2 * morangoKg;
+		double soma3 = maca * macaKg;
+		double soma4 = maca2 * macaKg;
+
+		double soma5 = soma1 + soma3;
+		double soma6 = soma2 + soma4;
+
+		double desconto1 = soma6 * 10 / 100;
+		
+		double valorComDesconto = soma6 - desconto1;
+
+		if ((morangoKg <= 5) || (macaKg <= 5)) {
+			System.out.println("O valor a ser pago é de: " + soma5);
+
+		} else if ((morangoKg < 8) || (macaKg < 8)) {
+			System.out.println("O valor a ser pago é de: " + soma6);
+
+		} else if ((morangoKg > 7) || (macaKg > 7)) {
+			System.out.println("O valor a ser pago com 10% de desconto é de: " + valorComDesconto);
+		}
+		sc.close();
+	}
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+12)
+package exercicio07;
+
+import java.util.Scanner;
+
+public class Exercicio12 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int login = 1234;
+		int senha = 9999;
+
+		System.out.println("Informe o Login de usuário: ");
+		int loginUsuario = sc.nextInt();
+		System.out.println("Informe a senha: ");
+		int senhaUsuario = sc.nextInt();
+
+		if ((loginUsuario == login) && (senhaUsuario == senha)) {
+			System.out.println("Acesso Permitido");
+		} else {
+			System.out.println("Usuario Incorreto");
+		}
+		sc.close();
+	}
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13)
 
 
 

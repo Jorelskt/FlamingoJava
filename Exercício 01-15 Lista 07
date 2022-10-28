@@ -409,6 +409,53 @@ public class Exercicio12 {
 }
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 13)
+package exercicio07;
+
+import java.util.Scanner;
+
+public class Exercicio13 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Informe o nome do produto: ");
+		String nomeProduto = sc.nextLine();
+		System.out.println("Informe a quantidade: ");
+		int quantidadeProduto = sc.nextInt();
+		System.out.println("Informe o valor unitario: ");
+		double valorProduto = sc.nextDouble();
+		
+		double valor1 = quantidadeProduto * valorProduto;
+		
+		double desconto1 =  valor1 * 2 / 100;
+		double desconto2 = valor1 * 3 / 100;
+		double desconto3 = valor1 * 5 / 100;
+		
+		double soma1 = valor1 - desconto1;
+		double soma2 = valor1 - desconto2;
+		double soma3 = valor1 - desconto3;
+		
+		if (quantidadeProduto <= 5) {
+			System.out.println("Valor total é de: " +valor1+
+					"\nO desconto total é de: " +desconto1+
+					"\nO total a pagar é de: "+soma1);
+			
+		} else if ((quantidadeProduto > 5) && (quantidadeProduto <=10)) {
+			System.out.println("Valor total é de: "+valor1+
+					"\nO desconto total é de: " +desconto2+
+					"\nO total a pagar é de: "+soma2);
+			
+		} else if (quantidadeProduto > 10) {
+			System.out.println("Valor total é de: " + valor1+
+					"\nO desconto total é de: " + desconto3+
+					"\nO total a pagar é de: " + soma3);
+		}
+sc.close();
+	}
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+14)
 
 
 

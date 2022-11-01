@@ -1,0 +1,104 @@
+package exercicio08;
+
+import java.util.Scanner;
+
+public class Exercicio01 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("Digite um numero: ");
+		int numero = sc.nextInt();
+		int contadora = 1;
+
+		while (contadora <= 10) {
+			System.out.println(numero + " x " + contadora + " = " + numero * contadora);
+			contadora++;
+		}
+		sc.close();
+	}
+}
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2)
+package exercicio08;
+
+import java.util.Scanner;
+
+public class Exercicio02 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int soma = 0;
+		int algumNumero = 0;
+
+		System.out.println("A soma dos 100 primeiros numero inteiros é: ");
+		while (algumNumero <= 100) {
+			soma += algumNumero;
+			algumNumero++;
+		}
+		System.out.println(soma);
+
+		sc.close();
+	}
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3)
+package exercicio08;
+
+import java.util.Scanner;
+
+public class Exercicio03 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int soma = 0;
+		int segundoNumero = 0;
+
+		System.out.println("A soma dos numeros pares entre o 1 ao 500 é: ");
+		while (segundoNumero <= 500) {
+			
+			soma += segundoNumero;
+			segundoNumero += 2;
+		}
+		System.out.println(soma);
+		sc.close();
+	}
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4)
+package exercicio08;
+
+import java.util.Scanner;
+
+public class Exercicio04 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int primeiroNumero = 0;
+		int segundoNumero = 1;
+
+		while (segundoNumero <= 20) {
+			System.out.println(segundoNumero);
+
+			primeiroNumero += segundoNumero;
+			segundoNumero += 2;
+		}
+		sc.close();
+	}
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5)
+
+
+
+
+
+
+

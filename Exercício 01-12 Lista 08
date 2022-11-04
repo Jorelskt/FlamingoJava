@@ -146,5 +146,32 @@ public class Exercicio06 {
 }
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------
 7)
+package exercicio08;
+
+import java.util.Scanner;
+
+public class Exercicio07 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int numero = 1;
+		int numero2 = 1;
+		int soma;
+
+		while (numero <= 4181) {
+			System.out.println(numero);
+
+			soma = numero + numero2;
+			numero = numero2;
+			numero2 = soma;
+
+		}
+		sc.close();
+	}
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8)
 
 
